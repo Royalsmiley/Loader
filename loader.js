@@ -1,3 +1,10 @@
+var link = document.createElement( "link" );
+link.href = "https://rawgit.com/Royalsmiley/Loader/v1.0.0/loader.css";
+link.type = "text/css";
+link.rel = "stylesheet";
+document.getElementsByTagName( "head" )[0].appendChild( link );
+
+
 function loader() {
     
     this.init = function(x){
