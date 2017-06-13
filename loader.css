@@ -1,0 +1,12 @@
+.loadercontainer{
+    width : 500px;
+    height : 100px;
+    color : blue;
+}
+
+.slider{
+    width:50%;
+    height:100%;
+    background-color: red;
+    transition: 1.0s all; /* to smooth it out */
+}
